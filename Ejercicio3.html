@@ -1,78 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Ejercicio</title>
+	<meta charset="UTF-8">
+	<title>Slider</title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
-
-<style type="text/css">
-	/*#contenedor:hover 
-	{
-		opacity: 0.2;
-	} */ 
-	
-	#contenedor
-	{
-		background-color: #0DF2E6;
-		width: 950px;
-		height: 750px;
-		margin: auto;
-		border-radius: 15px 15px 0px 0px;
-		/* box-shadow: 20px 20px 20px red; */
-	} 
-
-	#banner
-	{
-		background-color: #04A29A;
-		width: 100%;
-		height: 250px;
-		border-radius: 15px 15px 0px 0px;
-	}
-
-	#bloque_central
-	{
-		background-color: #05BB6F;
-		width: 100%;
-		height: 500px;
-	}
-
-	#central_arriba
-	{
-		background-color: red;
-		width: 100%;
-		height: 250px;
-	}
-
-	#central_abajo
-	{
-		background-color: green;
-		width: 100%;
-		height: 250px;
-	}
-	#arriba_izquierda
-	{
-		background-color: blue;
-		width: 50%;
-		height: 250px;
-		float: left;
-	}
-	#abajo_izquierda
-	{
-		background-color: yellow;
-		width: 50%;
-		height: 250px;
-		float: left;
-	}
-
-	audio
-	{
-		padding-top: 20px;
-	}
-
-</style>
 
 <body>
 	<div id="contenedor" >
 
-		<div id="banner">		
+		<div id="banner" class="slider">
+			<ul>
+				<li><img src="img/1.jpg" alt=""></li>
+				<li><img src="img/2.jpg" alt=""></li>
+				<li><img src="img/3.jpg" alt=""></li>
+				<li><img src="img/5.jpg" alt=""></li>
+			</ul>		
 		</div>
 
 		<div id="bloque_central">
@@ -94,9 +37,7 @@
 								<param name="movie" value="../flash/horoscopo.swf">
 						</object>
 					</div>	
-				</div>
-				
-				
+				</div>				
 		</div>
 		
 	</div> <!-- Cierre div CONTENEDOR -->
